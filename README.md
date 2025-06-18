@@ -30,6 +30,32 @@ Scientific papers often contain critical domain-specific terms buried in complex
 
 ---
 
+### 📁 File Structure
+
+1. **`main.py`**
+   The main entry point for the application. This script handles:
+
+   * Initializing the NLP model and extracting text from the provided PDF files.
+   * Running the Named Entity Recognition (NER) pipeline.
+   * Saving the extracted entities to output formats like JSON and SQLite database.
+
+2. **`extractor.py`**
+   Contains functions related to the **extraction process**:
+
+   * `extract_text_from_pdf`: Extracts raw text content from a given PDF file using PyMuPDF.
+   * `extract_entities`: Processes the extracted text with the `dslim/bert-base-NER` model to identify and classify named entities.
+
+3. **`storage.py`**
+   Handles the **saving of results**:
+
+   * `save_to_json`: Saves the identified entities and their details (including confidence scores) into a JSON file.
+   * `save_to_db`: Saves the same data into an SQLite database for structured storage and querying.
+
+5. **`README.md`**
+   This file. It explains the purpose of the project, how to use it, and other relevant details (like setup instructions, file structure, etc.).
+
+---
+
 ### 🛠️ Tech Stack
 
 * Python 3.10+
@@ -38,6 +64,4 @@ Scientific papers often contain critical domain-specific terms buried in complex
 * SQLite3 for database storage
 * JSON for structured data export
 
----
 
-Would you also like help adding an example usage section, code snippets, or setup instructions?
