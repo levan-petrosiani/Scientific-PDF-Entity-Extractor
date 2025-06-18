@@ -1,0 +1,47 @@
+[
+    {
+        "text": "Deep Learning for",
+        "label": "MISC",
+        "score": 0.9518092274665833
+    },
+    {
+        "text": "Scientific Text Classification",
+        "label": "MISC",
+        "score": 0.8276023864746094
+    },
+    {
+        "text": "Computer Science",
+        "label": "MISC",
+        "score": 0.8432697057723999
+    },
+    {
+        "text": "Physics",
+        "label": "LOC",
+        "score": 0.43462836742401123
+    },
+    {
+        "text": "Natural Language Processing",
+        "label": "MISC",
+        "score": 0.8582428693771362
+    },
+    {
+        "text": "NLP",
+        "label": "MISC",
+        "score": 0.8608076572418213
+    },
+    {
+        "text": "B",
+        "label": "MISC",
+        "score": 0.39012959599494934
+    },
+    {
+        "text": "##T",
+        "label": "MISC",
+        "score": 0.4758816063404083
+    },
+    {
+        "text": "GP",
+        "label": "MISC",
+        "score": 0.6853927969932556
+    }
+]
